@@ -1,0 +1,266 @@
+@charset "UTF-8";
+.button1{
+  position: absolute;
+  width: 100%;
+
+}
+.button{ width:100%}
+
+.button1 .button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button1 .button:hover {
+  background-color: black;
+  color: white;
+}
+.buttonM1:hover{
+  background-color: black;
+  color: white;
+}
+.buttonM2:hover{
+  background-color: black;
+  color: white;
+}
+.buttonM3:hover{
+  background-color: black;
+  color: white;
+}
+.buttonM4:hover{
+  background-color: black;
+  color: white;
+}
+.buttonM1{
+  width:100%;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;}
+.buttonM2{
+  width:100%;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;}
+.buttonM3{
+  width:100%;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;}
+.buttonM4{
+  width:100%;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Entrance {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background-position: center;
+    background-color: #7C7676;
+    background-size: auto;
+}
+.Hockeystick {
+	width: 200px;
+	height: 300px;
+	padding-left: 500px;
+	padding-top: 20px;
+}
+
+    #Stick {
+      width: 15px;
+      height: 200px;
+      transform: skew(20deg);
+      background: #AA9539;
+	  z-index: -1;
+    }
+    #Stick::before {
+	  border-bottom: 10px solid black;
+      position: absolute;
+      height: 0px;
+      width: 40px;
+      top: -10px;
+      left: -11px;
+      display: block;
+      content: '';
+      border-radius: 100px / 50px;
+	 	}
+	#Stick::after {
+	  width: 0;
+      height: 0;
+      border-right: 30px solid transparent;
+      border-top: 105px solid #AA9539;
+      position: absolute;
+      content: "";
+      top: 150px;
+      left: 38px;
+	  border-radius: 100px / 100px;
+      transform: rotate(90deg);
+	  z-index: 2;
+	  
+	}
+    #tape{
+	  width: 10px;
+      height: 10px;
+      position:relative;
+	  background: black;
+	  top:-240px;
+      left: -30px
+}
+
+
+.PuckFull {
+	width: 200px;
+	height: 300px;
+	padding-left: 500px;
+	padding-top: 20px;
+}
+
+#Puck {
+	width: 200px;
+      height: 100px;
+      background: black;
+      border-radius: 100px / 10px;
+	transform: skewx(10deg);
+}
+#Puck::before{
+	  width: 70px;
+      height: 220px;
+	  position: absolute;
+	  top:-115px;
+	  left: 75px;
+      border-radius: 50%;
+      box-shadow: 10px 10px 0 0 white;
+	  content: '';
+	  transform: rotate(80deg);
+	  
+}
+	
+.SkateFull {
+	width: 200px;
+	height: 300px;
+	padding-left: 590px;
+	padding-top: 20px;
+}
+#skate{
+ Width: 50px;
+ height: 190px;
+ background: grey;
+ transform: rotate(83deg);
+ border-radius: 100px/200px;
+ position: relative;
+}
+#skate::before {
+  width: 180px;
+  height: 100px;  
+  position: absolute;
+  background: black;
+  content:'';
+  display:block;
+  left:-165px;
+  top:100px;
+  transform: rotate(-10deg)
+}
+#skate::after {
+  position: absolute;
+  content:'';
+  width: 185px;
+  height: 100px;
+  background: black;
+  border-radius: 100px/35px;
+  transform: rotate(90deg);
+  top:45px;
+  left:-100px
+}
+#lace{
+ Width: 8px;
+ height: 45px;
+ background: white;
+ transform: rotate(60deg);
+ position:relative;
+ top:-240px;
+ left: -30px
+}
+#lace::after{
+ Width: 8px;
+ height: 45px;
+ background: white;
+ transform: rotate(40deg);
+ position:absolute;
+ content:'';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: cornflowerblue;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.active {
+  background-color: black;
+}
