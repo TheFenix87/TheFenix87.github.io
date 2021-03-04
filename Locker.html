@@ -4,8 +4,17 @@
 <meta charset="UTF-8">
 <title>Locker</title>
 </head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("div").click(function(){
+    $(this).hide();
+  });
+});
+</script>
 <link href="Style.css" rel="stylesheet" type="text/css">
 <body>
+	
 	  <ul>
   <li><a href="Main.html">Main</a></li>
   <li><a href="Rink.html">Rink</a></li>
@@ -13,7 +22,10 @@
   <li><a href="Concession.html">Concession</a></li>
   <li><a href="Seating.html">Seating</a></li>
 </ul>
+	<div class="Remember"><h1>REMEMBER TO GRAB YOUR STICK, PUCK, AND SKATES</h1>
+</div>
 	
+	<div class="outsidetext">Click on the gear to grab it!</div>
 	<div class="Hockeystick"><div id="Stick"><div id="tape"></div></div></div>
 	<div class="PuckFull"><div id="Puck"></div></div>
 	<div class="SkateFull"><div id="skate"></div><div id="lace"></div></div>

@@ -4,6 +4,23 @@
 <meta charset="UTF-8">
 <title>Concession</title>
 	<link href="Style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("#popo").hide()
+  $("#soda").hide()
+	$("#candy").hide()
+  $("#Menu1").click(function(){
+    $("#popo").fadeToggle();
+  });
+   $("#Menu2").click(function(){
+    $("#soda").fadeToggle();
+  });
+ $("#Menu3").click(function(){
+    $("#candy").fadeToggle();
+  });
+});
+</script>
 </head>
 
 <body>
@@ -14,6 +31,24 @@
   <li><a class="active" href="Concession.html">Concession</a></li>
   <li><a href="Seating.html">Seating</a></li>
 </ul>
-	<img src="food.png" width="100%" alt="food"/>
+	<div id="popo">
+	<img class="popc" src="Popcorn.png"> 
+	</div>
+    <div id="soda">
+	<img class="sods" src="Soda.png">
+	</div>
+	<div id="candy">
+	<img class="can" src="Candy.png">
+	</div>
+<div class="food">
+	<button id="Menu1" width="100%">Popcorn</button>
+	<button id="Menu2" width="100%">Soda</button>
+	<button id="Menu3" width="100%">Candy</button>
+	<img class="concession" src="Concession.png" width="100%" alt="con"/>
+	<img class="hands" src="hands.png" width="100%" alt="Hand"/>
+	</div>
+	
+
+
 </body>
 </html>

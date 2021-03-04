@@ -5,7 +5,18 @@
 <title>Rink</title>
 <link href="Style.css" rel="stylesheet" type="text/css">
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
 
+$(document).ready(function(){
+  $("div").hide();
+  $("button").click(function(){
+    $("div").toggle();
+  });
+});
+	
+	
+</script>
 <body>
   <ul>
   <li><a href="Main.html">Main</a></li>
@@ -15,6 +26,12 @@
   <li><a href="Seating.html">Seating</a></li>
 </ul>
 	
-	<img src="rinkside.jpg" width="100%" alt="rink"/>
+	<img id="rink" src="Rink.png" width="100%" alt="rink"/>
+	<button class="shoot">Click to shoot</button>
+<div id="action">
+	
+	<img id="shot" src="Shot.gif" width="100%" alt="shot"/>
+	</div>
+	
 </body>
 </html>
