@@ -13,15 +13,23 @@
   <li><a href="Locker.html">Locker</a></li>
   <li><a href="Concession.html">Concession</a></li>
   <li><a class="active" href="Seating.html">Seating</a></li>
+  <li><a href="Parking.html">Parking</a></li>
 </ul>
+
 	
-	<div class= "Rando1">
-	<p>Click to find your seat number</p>
-
-<button onclick="myFunction()">Find</button>
-
-<p id="SeatR"></p>
-<p id="SeatN"></p>
+<div class="contained">
+<div class="allT">
+<h2>CLICK TO FIND YOUR SEAT NUMBER</h2>
+<button class="RB" onclick="myFunction()">Find</button>
+<h3>YOUR ROW NUMBER IS:</h3>
+<div class="rowN"><p id="SeatR"></p></div>
+<h3>YOUR SEAT NUMBER IS:</h3>
+<div class="seatN"><p id="SeatN"></p></div>
+	<img class="seated" src="seat.png">
+	</div>
+	
+	
+	</div>
 <script>
 function myFunction() {
   var x = Math.floor((Math.random() * 100) + 1);
@@ -30,6 +38,7 @@ function myFunction() {
   document.getElementById("SeatR").innerHTML = x;
 }
 </script>
-	</div>
+	
+
 </body>
 </html>

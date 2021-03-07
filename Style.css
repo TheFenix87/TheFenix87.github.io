@@ -144,8 +144,20 @@ img {
 	  z-index: -1;
 	  
 	}
-   
 
+.article{
+	width: 60%;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+.cite{
+	font-family: "Times New Roman", Times, serif;
+}
 
 .PuckFull {
 	width: 200px;
@@ -428,6 +440,113 @@ ul {
 	z-index: 1;
 }
 
-.Rando1{
-	padding-top:50px;
+.contained{
+	position:relative;
 }
+.allT{
+	position:absolute;
+	top:1%;
+	width:100%;
+	z-index: 1;
+}
+.RB{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-family: Gotham, "Helvetica Neue";
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  z-index: 2;
+}
+h3{
+	color:blue;
+	font-size: 50px;
+}
+.rowN{
+	position:absolute;
+	color:blue;
+	font-size: 50px;
+	top:46%;
+	left:45%;
+}
+.seatN{
+	position:absolute;
+	color:black;
+	font-size: 50px;
+	top:85%;
+	left:58%;
+	z-index: 1;
+}
+.seated{
+	position:absolute;
+	top:0%;
+	left:20%;
+	height:300%;
+	z-index:-1;
+}
+
+h2{
+	color:white;
+	background-color:blue;
+	font-size: 50px;
+	text-align: center;
+}
+.plaque {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  letter-spacing: -0.2px;
+  word-spacing: -2.6px;
+  color: #969696;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  Width: 80%;
+}
+.park{
+	position:relative;
+	
+}
+#Redc{
+	position:absolute;
+	top:20%;
+	left:26%;
+	width:12%;
+	height:30%;
+	z-index: 1;
+	
+}
+
+#Bluec{
+	position:absolute;
+	top:20%;
+	left:60%;
+	width:12%;
+	height:30%;
+	z-index: 1;
+	
+}
+
+#Whitec{
+	position:absolute;
+	top:20%;
+	left:78%;
+	width:12%;
+	height:30%;
+	z-index: 1;
+	
+}
+
